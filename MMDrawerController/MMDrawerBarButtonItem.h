@@ -31,6 +31,13 @@
 ///---------------------------------------
 
 /**
+*  Creates the "hamburger" image.
+*
+*  @return a UIImage of the hamburger.
+*/
++(UIImage*)drawerButtonItemImage;
+
+/**
  Creates and initializes an `MMDrawerBarButtonItem` without a border.
  
  @param target The target to forward the `action` to when the button is pressed.
